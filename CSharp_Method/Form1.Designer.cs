@@ -70,6 +70,7 @@
             this.btnPlus.TabIndex = 3;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnMinus
             // 
@@ -79,6 +80,7 @@
             this.btnMinus.TabIndex = 4;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnMulti
             // 
@@ -88,6 +90,7 @@
             this.btnMulti.TabIndex = 5;
             this.btnMulti.Text = "*";
             this.btnMulti.UseVisualStyleBackColor = true;
+            this.btnMulti.Click += new System.EventHandler(this.btnMulti_Click);
             // 
             // btnDivision
             // 
@@ -97,6 +100,7 @@
             this.btnDivision.TabIndex = 6;
             this.btnDivision.Text = "/";
             this.btnDivision.UseVisualStyleBackColor = true;
+            this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
             // Form1
             // 
